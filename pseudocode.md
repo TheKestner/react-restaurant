@@ -6,7 +6,26 @@ The owners are still working on their recipes. They've populated an API with man
 A single-page web app that serves as a restaurant splash page with a menu. 
 
 Wireframe:
-image 
+image of paper
 
 Pseudocode:
+    Total of 15 menu items
+
+    Components -
+
+    App.js: Contains Home page for Title Restaurant 
+            
+    Dinner.js: contains Data for Dinner data 
+
+    Lunch.js: contains Data for Lunch data 
+
+    Appetizers.js: contains Data for Appetizers data
+
+    Dessert.js: Contains data for Desserts data 
+
+    
+    State is updated via the Title page once each component is selected. Nav should display state for the component that is selected. 
+    Data will go across the length of the screen or add via indvidual cards. 
+
+    Hero and Footer are static on the main page instead of via their own component file.
     
