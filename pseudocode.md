@@ -32,3 +32,5 @@ Pseudocode:
     Data will go across the length of the screen or add via indvidual cards. 
 
     Hero and Footer are static on the main page instead of via their own component file.
+
+    Each component would require a function to map the API data once their tab has been selected to be displayed
