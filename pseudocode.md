@@ -6,7 +6,7 @@ The owners are still working on their recipes. They've populated an API with man
 A single-page web app that serves as a restaurant splash page with a menu. 
 
 Wireframe:
-image of paper
+![wireframe](/wireframe.jpg)
 
 Pseudocode:
     Total of 15 menu items
