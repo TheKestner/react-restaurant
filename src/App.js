@@ -3,7 +3,7 @@ import { Link, Outlet } from 'react-router-dom';
 import "./App.css";
 
 
-function App() {
+export default function App() {
   return (
     <div>
       <h1>THIS IS A TEST</h1>
@@ -11,4 +11,4 @@ function App() {
   );
 }
 
-export default App;
+
