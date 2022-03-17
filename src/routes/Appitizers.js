@@ -13,7 +13,9 @@ export default function Appitizers() {
 
     return (
         <div>
-            <h2>{apps.title}</h2>
+            <h2>Appitizers</h2>
+            {apps.map((app) => <App key={app.id} app={app} />)}
         </div>
     );
 }
+
