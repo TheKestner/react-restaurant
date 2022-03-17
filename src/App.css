@@ -1,5 +1,9 @@
 h1 {
-    text-align: center;
+  padding: 60px;
+  text-align: center;
+  background: black;
+  color: white;
+  font-size: 30px;
   }
 
   .card  {
@@ -7,5 +11,7 @@ h1 {
     bottom: 0px;
     width: 100%;
     text-align:center;
+    background: black;
+    color: white;
   }
 
