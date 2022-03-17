@@ -8,7 +8,7 @@ export default function Dinner() {
 
     return (
         <div>
-            <h1>HELLO3</h1>
+            <h2>HELLO3</h2>
         </div>
     );
 }

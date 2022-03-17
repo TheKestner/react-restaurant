@@ -2,13 +2,18 @@ import React, { useState, useEffect} from 'react';
 import { getData } from '../utils/data';
 
 export default function Appitizers() {
+    const [apps, setApps] = useState([]);
     useEffect(() => {
-        let data = getData();
+        getData()
+        .then((data) => {
+        setApps(data)
+        })
+    
     });
 
     return (
         <div>
-            <h1>HELLO</h1>
+            {apps.title}
         </div>
     );
 }

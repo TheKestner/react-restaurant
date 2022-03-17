@@ -8,7 +8,7 @@ export default function Lunch() {
 
     return (
         <div>
-            <h1>HELLO2</h1>
+           <h2>Hello2</h2>
         </div>
     );
 }
