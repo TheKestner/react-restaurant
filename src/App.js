@@ -8,7 +8,7 @@ export default function App() {
   return (
     <Container className="p-3">
     <div>
-      <h1>THIS IS A TEST</h1>
+      <h1>KESTNER'S</h1>
     </div>
     </Container>
   );
