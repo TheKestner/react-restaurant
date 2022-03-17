@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, Outlet } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
+import Card from 'react-bootstrap/Card'
 import Nav from 'react-bootstrap/Nav';
 import "./App.css";
 
@@ -27,6 +28,19 @@ export default function App() {
   </Nav.Item>
 </Nav>
 <Outlet />
+<div>
+<Card className="bg-white text-dark">
+  {/* <Card.Img src="holder.js/762px270" alt="Card image" />
+  <Card.ImgOverlay> */}
+    <Card.Title>About Us</Card.Title>
+    <Card.Text>
+      Location:
+      348 E Main St, Lexington, KY.
+    </Card.Text>
+    <Card.Text>Phone Number: 867-5309</Card.Text>
+  {/* </Card.ImgOverlay> */}
+</Card>
+</div>
     </div> 
    // </Container>
   );

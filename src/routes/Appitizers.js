@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-
+import { getData } from '../utils/data';
 
 export default function Appitizers() {
     return (
