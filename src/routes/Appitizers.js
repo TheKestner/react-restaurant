@@ -13,7 +13,7 @@ export default function Appitizers() {
 
     return (
         <div>
-            {apps.title}
+            <h2>{apps.title}</h2>
         </div>
     );
 }
