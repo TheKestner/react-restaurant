@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, Outlet } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import Card from 'react-bootstrap/Card'
 import Nav from 'react-bootstrap/Nav';
 import "./App.css";
@@ -9,7 +9,7 @@ export default function App() {
   return (
     <div>
       <h1>KESTNER'S</h1>
-      <Nav justify variant="tabs" defaultActiveKey="/">
+    <Nav justify variant="tabs" defaultActiveKey="/">
   <Nav.Item>
     <Nav.Link eventKey="disabled" disabled>Menu:</Nav.Link>   
   </Nav.Item>
@@ -27,7 +27,7 @@ export default function App() {
 </Nav>
 <Outlet />
 <div>
-<Card className="bg-white text-dark">
+<Card className="">
   {/* <Card.Img src="holder.js/762px270" alt="Card image" />
   <Card.ImgOverlay> */}
     <Card.Title>About Us</Card.Title>
