@@ -9,7 +9,7 @@ export default function Appitizers() {
         setApps(data)
         })
     
-    });
+    },[]);
 
     return (
         <div>
@@ -18,4 +18,12 @@ export default function Appitizers() {
         </div>
     );
 }
+
+const App = ({ app }) => {
+    return (
+      <div>
+      {app.title}
+      </div>
+    )
+  }
 
