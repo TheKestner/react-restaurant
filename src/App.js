@@ -10,24 +10,28 @@ export default function App() {
     // <Container className="p-3">
     <div>
       <h1>KESTNER'S</h1>
-      <Nav justify variant="tabs" defaultActiveKey="/home">
+      <Nav justify variant="tabs" defaultActiveKey="/">
   <Nav.Item>
-    <Nav.Link eventKey="disabled" disabled>Menu:</Nav.Link>
+    <Nav.Link eventKey="disabled" disabled>Menu:</Nav.Link>   
   </Nav.Item>
   <Nav.Item>
-    <Nav.Link eventKey="link-1">Appitizers</Nav.Link>
+    <Nav.Link href="appitizers"eventKey="/appitizers">Appitizers</Nav.Link>
   </Nav.Item>
   <Nav.Item>
-    <Nav.Link eventKey="link-2">Lunch</Nav.Link>
+    <Nav.Link href="lunch"eventKey="/lunch">Lunch</Nav.Link>
   </Nav.Item>
   <Nav.Item>
-    <Nav.Link eventKey="link-3">
+    <Nav.Link href="dinner"eventKey="/dinner">
       Dinner
     </Nav.Link>
   </Nav.Item>
 </Nav>
+<Outlet />
     </div> 
    // </Container>
   );
 }
+
+
+//  eventKey="/appitizers">Appitizers
 
