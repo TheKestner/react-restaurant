@@ -9,6 +9,7 @@ Wireframe:
 ![wireframe](/wireframe.jpg)
 
 Pseudocode:
+
     Total of 15 menu items
 
     App.js: Contains Home page for Title Restaurant
