@@ -20,4 +20,19 @@ h1 {
   
    }
 
+   h2 {
+    font-weight: 900;
+   }
+
+  .food{
+   font-weight: normal;
+   font-size: 15px;
+  }
+
+  .des{
+   font-weight: bold;
+   font-size: 10px;
+  }
+
+
    
