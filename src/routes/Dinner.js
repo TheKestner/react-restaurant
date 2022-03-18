@@ -14,7 +14,9 @@ export default function Dinner() {
     return (
         <div>
             <h2>Dinner:</h2>
-            {apps.map((app) => <App key={app.id} app={app} />)}
+            {apps
+            .filter(app => app.category.title === 'Pasta')
+            .map((app) => <App key={app.id} app={app} />)}
         </div>
     );
 }
@@ -22,7 +24,7 @@ export default function Dinner() {
 const App = ({ app }) => {
     return (
       <div>
-      {app.title}
+      {app.title} Price: {app.price} Description: {app.description}
       </div>
     )
   }

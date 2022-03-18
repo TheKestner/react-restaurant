@@ -9,9 +9,9 @@ export default function App() {
   return (
     <div>
       <h1>KESTNER'S</h1>
-    <Nav justify variant="tabs" defaultActiveKey="/">
-  <Nav.Item>
-    <Nav.Link eventKey="disabled" disabled>Menu:</Nav.Link>   
+    <Nav className="" justify  defaultActiveKey="/">
+    <Nav.Item>
+    <Nav.Link eventKey="disabled" disabled>Menu:</Nav.Link> 
   </Nav.Item>
   <Nav.Item>
     <Nav.Link href="appitizers"eventKey="/appitizers">Appitizers</Nav.Link>
