@@ -23,8 +23,9 @@ export default function Appitizers() {
 
 const App = ({ app }) => {
     return (
-      <div>
-      {app.title} Price: {app.price} Description: {app.description}
+      <div className="food">
+      {app.title} Price: {app.price} 
+      <div className="des"> Description: {app.description}</div>
       </div>
     )
   }
