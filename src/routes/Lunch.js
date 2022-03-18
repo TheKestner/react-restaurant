@@ -14,7 +14,9 @@ export default function Lunch() {
     return (
         <div>
             <h2>Lunch:</h2>
-            {apps.map((app) => <App key={app.id} app={app} />)}
+            {apps
+            .filter(app => app.category.title === 'Sandwiches')
+            .map((app) => <App key={app.id} app={app} />)}
         </div>
     );
 }

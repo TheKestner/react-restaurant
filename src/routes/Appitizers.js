@@ -14,7 +14,9 @@ export default function Appitizers() {
     return (
         <div>
             <h2>Appitizers:</h2>
-            {apps.map((app) => <App key={app.id} app={app} />)}
+            {apps
+            .filter(app => app.category.title === 'Appetizer')
+            .map((app) => <App key={app.id} app={app} />)}
         </div>
     );
 }

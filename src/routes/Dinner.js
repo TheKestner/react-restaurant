@@ -14,7 +14,9 @@ export default function Dinner() {
     return (
         <div>
             <h2>Dinner:</h2>
-            {apps.map((app) => <App key={app.id} app={app} />)}
+            {apps
+            .filter(app => app.category.title === 'Pasta')
+            .map((app) => <App key={app.id} app={app} />)}
         </div>
     );
 }
