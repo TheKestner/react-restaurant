@@ -22,6 +22,9 @@ h1 {
 
    h2 {
     font-weight: 900;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    margin-top: 25px;
    }
 
   .food{
@@ -32,7 +35,22 @@ h1 {
   .des{
    font-weight: bold;
    font-size: 10px;
+   margin-top: 25px;
+   margin-bottom: 25px;
+
   }
 
+  .nav{
+    font-size:larger
+  }
+  
+  a.nav-link {
+    color: grey;
+    
+}
 
-   
+.nav-link:focus, .nav-link:hover {
+  color: white;
+}
+
+
