@@ -9,7 +9,7 @@ export default function App() {
   return (
     <div>
       <h1>KESTNER'S</h1>
-    <Nav className="" justify  defaultActiveKey="/">
+    <Nav className="test" justify defaultActiveKey="/">
     <Nav.Item>
     <Nav.Link eventKey="disabled" disabled>Menu:</Nav.Link> 
   </Nav.Item>
